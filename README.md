@@ -6,14 +6,14 @@ In this personal project, I used the Neflix Movies and TV Shows data set, examin
 # Key Findings:
 - Netflix's catalog is dominated by movies (about 70%), which shows that films are essential to its content strategy, this may also be influenced by production cost differences and audience consumption patterns.
 - Content production is concentrated in the US, India, and the UK, showing that Netflix not only focuses on strong domestic influence but also international expansion.
-- Netflix experienced rapid growth in content additions between the years 2018 and 2019, followed buy a very steep slowdown after 2020, which was likely due to COVID-related distruptions.
+- Netflix experienced rapid growth in content additions between the years 2018 and 2019, followed by a very steep slowdown after 2020, which was likely due to COVID-related disruption.
 - International movies, dramas and comedies are the most common genres, again proving that Netflix likes to appeal to global audiences.
-- The logistical regression classifier achieved 100% accuracy on the test set. Duration was the strongest signifier/predictive feature. Movies are measured in minutes, while TV shows are measured in seasons, which makes them more easily separable and easier for the model to achieve very high accuracy.
+- The logistic regression classifier achieved 73% accuracy on the test set. Duration was the strongest signifier/predictive feature, so it was removed, which decreased model accuracy and more realistic test.
 
 # Analysis Highlights:
 - Content distribution (Movies vs. TV Shows)
 - Content growth over time by type
-- Top 15 content-producing contries
+- Top 15 content-producing countries
 - Top 15 genres on the platform
 - Ratings breakdown by content type
 - Movie duration analysis
@@ -44,7 +44,7 @@ In this personal project, I used the Neflix Movies and TV Shows data set, examin
 # Future Improvements:
 - Incorporate cost and budget data to analyze the relationship between production spend and content volume
 - Expand classifier with more features or compare against a Random Forest model
-- Comapare Netflix's content strategy directly against competitors
+- Compare Netflix's content strategy directly against competitors
 - Explore subscriber growth data alongside content additions to test retention hypotheses
 
 # Author:
